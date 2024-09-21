@@ -18,7 +18,7 @@ body {
 }
 
 h1, h2, h3 {
-  color: var(--gris-oscuro);
+  color: var(--gris-medio);
 }
 
 a {
@@ -65,8 +65,8 @@ nav ul li a:hover {
 }
 
 .banner img {
-  width: 800px;
-  border-radius: 15px;
+  width: 500px 500px;
+border-radius: 10px;
 }
 
 .banner-content h2 {
@@ -76,6 +76,7 @@ nav ul li a:hover {
 .banner-content p {
   font-size: 18px;
 }
+
 
 .btn-banner {
   background-color: var(--cafe-oscuro);
@@ -154,13 +155,12 @@ nav ul li a:hover {
 
 .banners-adicionales {
   padding: 40px;
-  background-color: #EFEFEF;
+  background-color: #ffffff;
   text-align: center;
 }
 
 .banner-adicional {
   padding: 20px;
-  background-color: var(--gris-oscuro);
   color: var(--blanco);
   border-radius: 10px;
 }
@@ -239,4 +239,3 @@ footer ul li a:hover {
       gap: 10px;
   }
 }
-
