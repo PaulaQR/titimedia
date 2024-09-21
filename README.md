@@ -1,2 +1,3 @@
-# PAUPIXEL
-VENTA DE PINTURAS PERSONALZADAS 
+# Mario Hernández
+
+https://paulaqr.github.io/titimedia.github.io/ 

@@ -64,6 +64,11 @@ nav ul li a:hover {
   color: var(--gris-oscuro);
 }
 
+.banner img {
+  width: 800px;
+  border-radius: 15px;
+}
+
 .banner-content h2 {
   font-size: 36px;
 }
