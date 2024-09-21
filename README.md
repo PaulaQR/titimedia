@@ -1,2 +1,2 @@
-# titimedia
-Mario Hernandez
+# PAUPIXEL
+VENTA DE PINTURAS PERSONALZADAS 
