@@ -21,13 +21,10 @@ h1, h2, h3 {
   color: var(--gris-medio);
 }
 
-
-
 a {
   text-decoration: none;
   color: var(--blanco);
 }
-
 
 header {
   display: flex;
@@ -95,7 +92,6 @@ nav ul li a:hover {
   background-color:  var(--banner-color);
 }
 .productos-container {
-  padding: 40px;
   background-color: var(--blanco);
   text-align: center;
 }
@@ -110,7 +106,6 @@ nav ul li a:hover {
 .producto {
   display: inline-block;
   width: 280px;
-  margin: 0 15px;
   background-color: #f9f9f9;
   border-radius: 15px;
   overflow: hidden;
@@ -172,7 +167,6 @@ nav ul li a:hover {
 }
 
 .banner-adicional {
-  padding: 20px;
   color: #2C2C2C;
   border-radius: 10px;
 }
