@@ -57,19 +57,21 @@ nav ul li a:hover {
 
 .banner {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
-  padding: 40px;
-  background-color: var(--banner-color);
-  color: var(--gris-oscuro);
+  width: 100%;
+  padding: 100px;
+  background-image: url('./IMG/banner.png');
+  color: white;
 }
 
 .banner img {
-  width: 500px 500px;
-border-radius: 10px;
+  align-content: center;
+  object-fit: cover;
 }
 
 .banner-content h2 {
+  color: white;
   font-size: 36px;
 }
 
@@ -87,7 +89,7 @@ border-radius: 10px;
 }
 
 .btn-banner:hover {
-  background-color: var(--gris-medio);
+  background-color:  var(--banner-color);
 }
 
 .productos-container {
