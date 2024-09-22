@@ -21,10 +21,13 @@ h1, h2, h3 {
   color: var(--gris-medio);
 }
 
+
+
 a {
   text-decoration: none;
   color: var(--blanco);
 }
+
 
 header {
   display: flex;
