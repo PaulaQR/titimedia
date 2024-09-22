@@ -59,9 +59,9 @@ nav ul li a:hover {
   display: flex;
   justify-content:space-between;
   align-items: center;
-  width: 100%;
   padding: 100px;
   background-image: url('./IMG/banner.png');
+
   color: white;
 }
 
@@ -91,7 +91,6 @@ nav ul li a:hover {
 .btn-banner:hover {
   background-color:  var(--banner-color);
 }
-
 .productos-container {
   padding: 40px;
   background-color: var(--blanco);
@@ -101,58 +100,66 @@ nav ul li a:hover {
 .productos-container h2 {
   margin-bottom: 30px;
   font-size: 28px;
+  font-weight: 300;
+  color: var(--gris-oscuro);
 }
 
 .producto {
   display: inline-block;
-  width: 300px;
+  width: 280px;
   margin: 0 15px;
-  background-color: #EFEFEF;
-  border-radius: 10px;
+  background-color: #f9f9f9;
+  border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .producto:hover {
   transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .producto img {
   width: 100%;
-  height: 250px;
+  height: 200px;
   object-fit: cover;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 .producto h3 {
-  font-size: 22px;
-  margin: 20px 0;
+  font-size: 20px;
+  margin: 15px 0 10px;
+  font-weight: 400;
   color: var(--gris-oscuro);
 }
 
 .producto .precio {
-  font-size: 18px;
+  font-size: 16px;
   color: var(--gris-medio);
 }
 
 .producto .rebaja {
   color: var(--rojo-rebajas);
-  font-weight: bold;
+  font-weight: 600;
   margin-left: 10px;
 }
 
 .btn-comprar {
-  display: block;
-  margin: 20px;
-  padding: 10px 20px;
+  display: inline-block;
+  margin: 20px 0;
+  padding: 8px 16px;
   background-color: var(--cafe-oscuro);
   color: var(--blanco);
-  border-radius: 5px;
-  transition: background-color 0.3s;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.3s, transform 0.2s;
 }
 
 .btn-comprar:hover {
   background-color: var(--gris-medio);
+  transform: scale(1.05);
 }
 
 .banners-adicionales {
@@ -170,16 +177,18 @@ nav ul li a:hover {
 .btn-adicional {
   display: inline-block;
   margin-top: 20px;
-  padding: 10px 20px;
+  padding: 8px 16px;
   background-color: var(--gris-medio);
   color: var(--blanco);
-  border-radius: 5px;
-  transition: background-color 0.3s;
+  border-radius: 30px;
+  transition: background-color 0.3s, transform 0.2s;
 }
 
 .btn-adicional:hover {
   background-color: var(--cafe-oscuro);
-}
+  transform: scale(1.05);
+} 
+
 
 footer {
   padding: 20px;
