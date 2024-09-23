@@ -89,7 +89,7 @@ nav ul li a:hover {
 }
 
 .btn-banner:hover {
-  background-color:  var(--banner-color);
+  background-color:  var(--gris-medio);
 }
 .productos-container {
   background-color: var(--blanco);
@@ -144,6 +144,7 @@ nav ul li a:hover {
 }
 
 .btn-comprar {
+  width: 200px;
   display: inline-block;
   margin: 20px 0;
   padding: 8px 16px;
@@ -172,17 +173,18 @@ nav ul li a:hover {
 }
 
 .btn-adicional {
+  width: 200px;
   display: inline-block;
   margin-top: 20px;
   padding: 8px 16px;
-  background-color: var(--gris-medio);
+  background-color: var(--cafe-oscuro);
   color: var(--blanco);
   border-radius: 30px;
   transition: background-color 0.3s, transform 0.2s;
 }
 
 .btn-adicional:hover {
-  background-color: var(--cafe-oscuro);
+  background-color: var(--gris-medio);
   transform: scale(1.05);
 } 
 
